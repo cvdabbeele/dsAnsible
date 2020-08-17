@@ -1,7 +1,7 @@
 # Ansible
 
 based on the retired project at https://github.com/deep-security/ansible/tree/retired  
-Added support for RedHad dnf
+Added support for RedHat dnf
 
 An Ansible playbook for the Deep Security Agent. This playbook allows you to easily deploy the Deep Security Agent as well as take some common operations from the Agent.
 
