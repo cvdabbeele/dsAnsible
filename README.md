@@ -1,5 +1,8 @@
 # Ansible
 
+based on the retired project at https://github.com/deep-security/ansible/tree/retired
+Added support for RedHad dnf
+
 An Ansible playbook for the Deep Security Agent. This playbook allows you to easily deploy the Deep Security Agent as well as take some common operations from the Agent.
 
 
@@ -18,7 +21,7 @@ An Ansible playbook for the Deep Security Agent. This playbook allows you to eas
 * Deep Security Manager
 * Deep Security Agent
 
-All of the tasks below assume you have a working Deep Security infrastructure. The Deep Security Agents (which these playbooks help you manage) do the heavy lifting, but the Deep Security Manager gives the orders. 
+All of the tasks below assume you have a working Deep Security infrastructure. The Deep Security Agents (which these playbooks help you manage) do the heavy lifting, but the Deep Security Manager gives the orders.
 
 
 ## Install
@@ -157,16 +160,16 @@ token/tenant_password | String | In a multi-tenant installation (like Deep Secur
 
 ## Support
 
-This is an Open Source community project supported by the Deep Security 
-team. 
+This is an Open Source community project supported by the Deep Security
+team.
 
-For issues with Deep Security in general, please 
-[contact Trend Micro Support](https://success.trendmicro.com/). 
-Tutorials, feature-specific help, and other information about Deep Security 
-is available from the [Deep Security Help Center](https://help.deepsecurity.trendmicro.com/). 
+For issues with Deep Security in general, please
+[contact Trend Micro Support](https://success.trendmicro.com/).
+Tutorials, feature-specific help, and other information about Deep Security
+is available from the [Deep Security Help Center](https://help.deepsecurity.trendmicro.com/).
 
-For bug reports or feature requests for this project specifically, please 
-[open an issue](../issues). Please be specific about what you're 
+For bug reports or feature requests for this project specifically, please
+[open an issue](../issues). Please be specific about what you're
 trying to do, your system, and steps to reproduce the problem.
 You are welcome to [contribute](#contribute).
 
@@ -180,5 +183,5 @@ We accept contributions from the community. To submit changes:
 1. Make your changes.
 1. Submit a pull request with an explanation of your changes or additions.
 
-We will review and work with you to release the code. For further help, 
+We will review and work with you to release the code. For further help,
 please contact the Trend Micro open source support team at deepsecurityopensource@trendmicro.com.
